@@ -1,0 +1,386 @@
+<div class="divTitle" >
+    <table style="width: 100%;">
+        <tr>
+            <td >
+                <h2 class="title" > 2.1 DEFORESTATION 
+                   
+                </h2>
+            </td>
+            <td style="text-align: right ;" >
+                <p style="font-size: medium; color: white; margin-right: 30px;"> If country-specific data are avaible, please go to the Tier 2 : 
+                    <button style="background-color: rgb(241, 233, 217); height: 30px; border-radius: 15%;"> Tier 2 </button>
+                </p>
+            </td>
+        </tr>
+    </table>
+    
+</div> 
+
+<div class="divTable" >
+    <table class="data-table" style="width: 100%;" >
+        <thead>
+          <tr style="text-align: center ;">
+            <th>Type of vegetation <br> that will be deforested <br> <button style="background-color: orangered;"  (click)="navigateToOther()" >?</button></th>
+            <th>HWPs</th>
+            <th>Fire used?</th>
+            <th colspan="2"><p style="text-decoration: underline;">Final land-use after deforestation</p></th>
+            <th colspan="5">Forested area (ha)</th>
+            <th colspan="2">Deforested area (ha)</th>
+            <th colspan="2"> Total emissions (tCO2-e)</th>
+            <th>Balance</th>
+          </tr>
+        </thead>
+        <thead>
+          <tr style="text-align: center ;">
+            <td></td>
+            <td>(tDM/ha)</td>
+            <td>(y/n)</td>
+            <td >land-use type</td>
+            <td >Agroforestry system</td>
+            <td >Start</td>
+            <td colspan="2">Without</td>
+            <td colspan="2">With</td>
+            <td >Without</td>
+            <td >With</td>
+            <td >Without</td>
+            <td >With</td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="text-align: center ;">
+            <td >
+                <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+                    <option selected style="text-align: center;">Please Select</option> 
+                </select> 
+            </td>
+            <td>
+              <input type="text" style="width: 30px; height: 25px;">
+            </td>
+            <td>
+              <select class="form-select" style="width: 70px; height: 25px; margin-left: 10px; margin-right: 10px;" >
+                <option selected style="text-align: center;">NO</option>
+                <option style="text-align: center;">YES</option>
+            </select> 
+            </td>
+            <td>
+              <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+                <option selected style="text-align: center;">Please Select</option> 
+            </select> 
+            </td>
+            <td>
+              <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+                <option selected style="text-align: center;">Please Select</option> 
+            </select> 
+            </td>
+            <td>
+              <input type="text" style="width: 50px; height: 25px;">
+            </td>
+            <td>
+              <input type="text" style="width: 50px; height: 25px;">
+            </td>
+            <td>
+              <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); " >
+                <option selected style="text-align: center;">I</option>
+                <option style="text-align: center;">D</option>
+                <option style="text-align: center;">E</option>
+            </select> 
+            </td>
+            <td>
+              <input type="text" style="width: 50px; height: 25px;">
+            </td>
+            <td>
+              <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); margin-right: 10px;" >
+                <option selected style="text-align: center;">I</option>
+                <option style="text-align: center;">D</option>
+                <option style="text-align: center;">E</option>
+            </select> 
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>     
+          </tr>
+        </tbody>
+      </table> 
+      <div>
+        <p style="text-align: end; font-weight: bold;">_______________________________________________________________________________________</p>
+        <p style="text-align: end; font-weight: bold;">Total non forest land-use change (tCO2 - e)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  #N/A &nbsp;&nbsp;&nbsp;&nbsp; #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  
+      </div> 
+      <p style="margin-top: 80px; font-size: small;">* the selection of "D" corresponds to a default (linear) dynamics of change. Other selection options include "I" for immediate changes and "E" for expontial - please refer to the guidelines for further explanation of these assumption</p> 
+</div>
+<!-- 2.2 AFForest and reforestration -->
+<div class="divTitle" >
+  <table style="width: 100%;">
+      <tr>
+          <td >
+              <h2 class="title" > 2.2 AFFOREST & REFORESTRATION 
+                 
+              </h2>
+          </td>
+          <td style="text-align: right ;" >
+              <p style="font-size: medium; color: white; margin-right: 30px;"> If country-specific data are avaible, please go to the Tier 2 : 
+                  <button style="background-color: rgb(241, 233, 217); height: 30px; border-radius: 15%;"> Tier 2 </button>
+              </p>
+          </td>
+      </tr>
+  </table>
+  
+</div> 
+<div class="divTable" >
+  <table class="data-table" style="width: 100%;" >
+      <thead>
+        <tr style="text-align: center ;">
+          <th>Final land-use</th>
+          <th>Fire used?</th>
+          <th>Initial land-use</th>
+          <th >Initial agroforestry system</th>
+          <th colspan="4">Reforested area (ha)</th>
+          <th colspan="2"> Total emissions (tCO2-e)</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <thead>
+        <tr style="text-align: center ;">
+          <td></td>
+          <td>(y/n)</td>
+          <td ></td>
+          <td ></td>
+          <td colspan="2">Without</td>
+          <td colspan="2">With</td>
+          <td >Without</td>
+          <td >With</td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="text-align: center ;">
+          <td >
+              <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+                  <option selected style="text-align: center;">Please Select</option> 
+              </select> 
+          </td>
+          
+          <td>
+            <select class="form-select" style="width: 70px; height: 25px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">NO</option>
+              <option style="text-align: center;">YES</option>
+          </select> 
+          </td>
+          <td>
+            <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">Please Select</option> 
+          </select> 
+          </td>
+          <td>
+            <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">Please Select</option> 
+          </select> 
+          </td>
+          <td>
+            <input type="text" style="width: 50px; height: 25px;">
+          </td>
+          <td>
+            <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); " >
+              <option selected style="text-align: center;">I</option>
+              <option style="text-align: center;">D</option>
+              <option style="text-align: center;">E</option>
+          </select> 
+          </td>
+          <td>
+            <input type="text" style="width: 50px; height: 25px;">
+          </td>
+          <td>
+            <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); " >
+              <option selected style="text-align: center;">I</option>
+              <option style="text-align: center;">D</option>
+              <option style="text-align: center;">E</option>
+          </select> 
+          </td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+             
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <p style="text-align: end; font-weight: bold;">_______________________________________________________________________________________</p>
+      <p style="text-align: end; font-weight: bold;">Total non forest land-use change (tCO2 - e) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+    </div>  
+    <p style="margin-top: 80px; font-size: small;">* the selection of "D" corresponds to a default (linear) dynamics of change. Other selection options include "I" for immediate changes and "E" for expontial - please refer to the guidelines for further explanation of these assumption</p> 
+</div>
+
+<!-- 2.3 OTHER LAND-USE CHANGES -->
+<div class="divTitle" >
+  <table style="width: 100%;">
+      <tr>
+          <td >
+              <h2 class="title" >2.3 OTHER LAND-USE CHANGES 
+                 
+              </h2>
+          </td>
+          <td style="text-align: right ;" >
+              <p style="font-size: medium; color: white; margin-right: 30px;"> If country-specific data are avaible, please go to the Tier 2 : 
+                  <button style="background-color: rgb(241, 233, 217); height: 30px; border-radius: 15%;"> Tier 2 </button>
+              </p>
+          </td>
+      </tr>
+  </table>
+</div> 
+
+<div class="divTable" >
+  <table class="data-table" style="width: 100%;" >
+      <thead>
+        <tr style="text-align: center ;">
+          <th>User notes </th>
+          <th></th>
+          <th>Fire used?</th>
+          <th>Initial land-use</th>
+          <th>Final land-use</th>
+          <th colspan="4">Area of land use change (ha)</th>
+          <th colspan="2">Total emissions (tCO2 - e)</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <thead>
+        <tr style="text-align: center ;">
+          <td></td>
+          <td><td>
+          <td>(y/n)</td>
+          <td ></td>       
+          <td colspan="2">Without</td>
+          <td colspan="2">With</td>
+          <td >Without</td>
+          <td >With</td>
+          <td ></td>
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="text-align: center ;">
+          <td >
+              <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+                  <option selected style="text-align: center;">Please Select</option> 
+              </select> 
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td>
+            <select class="form-select" style="width: 70px; height: 25px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">NO</option>
+              <option style="text-align: center;">YES</option>
+          </select> 
+          </td>
+          <td>
+            <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">Please Select</option> 
+          </select> 
+          </td>
+          <td>
+            <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">Please Select</option> 
+          </select> 
+          </td>
+          <td>
+            <input type="text" style="width: 50px; height: 25px;">
+          </td>
+          <td>
+            <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); " >
+              <option selected style="text-align: center;">I</option>
+              <option style="text-align: center;">D</option>
+              <option style="text-align: center;">E</option>
+          </select> 
+          </td>
+          <td>
+            <input type="text" style="width: 50px; height: 25px;">
+          </td>
+          <td>
+            <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); " >
+              <option selected style="text-align: center;">I</option>
+              <option style="text-align: center;">D</option>
+              <option style="text-align: center;">E</option>
+          </select> 
+          </td>
+        
+          <td>
+           #N/A 
+          </td>
+          <td>
+            #N/A
+          </td>
+          <td>
+            #N/A
+          </td>    
+        </tr>
+        <tr style="text-align: center ;">
+          <td >
+              <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+                  <option selected style="text-align: center;">Please Select</option> 
+              </select> 
+          </td>
+          <td>
+            <p></p>
+          </td>
+          <td>
+            <select class="form-select" style="width: 70px; height: 25px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">NO</option>
+              <option style="text-align: center;">YES</option>
+          </select> 
+          </td>
+          <td>
+            <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">Please Select</option> 
+          </select> 
+          </td>
+          <td>
+            <select class="form-select" style="width: 150px; height: 30px; margin-left: 10px; margin-right: 10px;" >
+              <option selected style="text-align: center;">Please Select</option> 
+          </select> 
+          </td>
+          <td>
+            <input type="text" style="width: 50px; height: 25px;">
+          </td>
+          <td>
+            <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); " >
+              <option selected style="text-align: center;">I</option>
+              <option style="text-align: center;">D</option>
+              <option style="text-align: center;">E</option>
+          </select> 
+          </td>
+          <td>
+            <input type="text" style="width: 50px; height: 25px;">
+          </td>
+          <td>
+            <select class="form-select" style="width: 50px; height: 25px;  background-color: rgb(134, 134, 134); " >
+              <option selected style="text-align: center;">I</option>
+              <option style="text-align: center;">D</option>
+              <option style="text-align: center;">E</option>
+          </select> 
+          </td>
+        
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>
+          <td>
+            0
+          </td>    
+        </tr>
+      </tbody>
+    </table>  
+    <div>
+      <p style="text-align: end; font-weight: bold;">_______________________________________________________________________________________</p>
+      <p style="text-align: end; font-weight: bold;">Total non forest land-use change (tCO2 - e) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #N/A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+    </div>
+    <p style="margin-top: 80px; font-size: small;">* the selection of "D" corresponds to a default (linear) dynamics of change. Other selection options include "I" for immediate changes and "E" for expontial - please refer to the guidelines for further explanation of these assumption</p>
+</div>
+

@@ -1,0 +1,38 @@
+<div class="navtabs-container">
+    <nav mat-tab-nav-bar fxFlex fxLayout="row" fxLayoutAlign="center center" style="background-color: #263238; height: 70px; padding-top: 2%;">
+      <div mat-tab-link routerLink="/start" routerLinkActive #start="routerLinkActive" [active]="start.isActive"  >
+       <p >EX-ACT version 9 
+        <br>Start</p> 
+       </div>
+      <div mat-tab-link routerLink="/description" routerLinkActive #description="routerLinkActive" [active]="description.isActive">
+        <p>Description of project</p>
+      </div>
+      <div mat-tab-link routerLink="/land" routerLinkActive #land="routerLinkActive" [active]="land.isActive">
+        <p>Land-use changes</p>
+      </div>
+      <div mat-tab-link routerLink="/cropland" routerLinkActive #cropland="routerLinkActive" [active]="cropland.isActive">
+        <p>Cropland Management</p>
+      </div>
+      <div mat-tab-link routerLink="/grassland" routerLinkActive #grassland="routerLinkActive" [active]="grassland.isActive">
+        <p>Grassland and Livestock</p>
+      </div>
+      <div mat-tab-link routerLink="/management" routerLinkActive #management="routerLinkActive" [active]="management.isActive">
+        <p>Forest management</p>
+      </div>
+      <div mat-tab-link routerLink="/inland" routerLinkActive #inland="routerLinkActive" [active]="inland.isActive">
+        <p>Inland wetlands</p>
+      </div>
+      <div mat-tab-link routerLink="/coastal" routerLinkActive #coastal="routerLinkActive" [active]="coastal.isActive">
+        <p>Coastal wetlands</p>
+      </div>
+      <div mat-tab-link routerLink="/fisheries" routerLinkActive #fisheries="routerLinkActive" [active]="fisheries.isActive">
+        <p>Fisheries and aquaculture</p>
+      </div>
+      <div mat-tab-link routerLink="/inputs" routerLinkActive #inputs="routerLinkActive" [active]="inputs.isActive">
+        <p>Inputs and Investments</p>
+      </div>
+      <div mat-tab-link routerLink="/results" routerLinkActive #results="routerLinkActive" [active]="results.isActive">
+        <p>Detailed results</p>
+      </div>
+    </nav>
+  </div>
